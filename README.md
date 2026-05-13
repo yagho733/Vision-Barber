@@ -1,4 +1,4 @@
-# 💈 Vision Barber Pro
+# 💈 Vision Barber
 
 Sistema de agendamento para barbearia desenvolvido com HTML, CSS e JavaScript.
 
