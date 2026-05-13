@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Vision Barber</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <header class="app-header">
+    💈 Vision Barber 
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <h1>Agende seu corte em segundos</h1>
+    <p>Escolha serviço, data e horário</p>
+
+    <a href="cortes.html" class="btn secondary">
+      ✂️ Ver estilos de cortes
+    </a>
+
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section class="step">
+
+    <h2>1. Serviço</h2>
+
+    <div class="options">
+
+      <button onclick="selectService('Corte - R$30')">✂️ Corte - R$30</button>
+      <button onclick="selectService('Barba - R$10')">🪒 Barba - R$10</button>
+      <button onclick="selectService('Sobrancelha - R$5')">👁 Sobrancelha - R$5</button>
+      <button onclick="selectService('Combo - R$45')">💈 Combo - R$45</button>
+
+    </div>
+
+  </section>
+
+  <!-- DATA -->
+  <section class="step">
+
+    <h2>2. Data</h2>
+
+    <input type="date" id="date">
+
+  </section>
+
+  <!-- HORÁRIO -->
+  <section class="step">
+
+    <h2>3. Horário</h2>
+
+    <div class="options">
+
+      <button onclick="selectTime('09:00')">09:00</button>
+      <button onclick="selectTime('11:00')">11:00</button>
+      <button onclick="selectTime('14:00')">14:00</button>
+      <button onclick="selectTime('17:00')">17:00</button>
+
+    </div>
+
+  </section>
+
+  <!-- CONFIRMAÇÃO -->
+  <section class="confirm">
+
+    <h2>Resumo</h2>
+
+    <p id="summary">Nada selecionado</p>
+
+    <button onclick="sendWhatsApp()" class="btn">
+      💬 Confirmar no WhatsApp
+    </button>
+
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
