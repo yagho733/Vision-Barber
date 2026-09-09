@@ -1,44 +1,26 @@
-# 💈 Vision Barber
+# Vision Barber
 
-Sistema de agendamento para barbearia desenvolvido com HTML, CSS e JavaScript.
+Site demonstrativo para barbearias, desenvolvido com foco em apresentação de serviços, experiência mobile e contato rápido com o cliente.
 
----
+## Projeto online
 
-## 🚀 Funcionalidades
+https://yagho733.github.io/Vision-Barber/
 
-- Agendamento online
-- Escolha de serviço
-- Escolha de data e horário
+## Funcionalidades
+
+- Página inicial responsiva
+- Apresentação de serviços e cortes
+- Seleção de data e horário
+- Fluxo de agendamento
 - Integração com WhatsApp
-- Página de cortes
-- Layout responsivo
+- Navegação adaptada para desktop, tablet e celular
 
----
-
-## 🛠 Tecnologias utilizadas
+## Tecnologias
 
 - HTML5
 - CSS3
 - JavaScript
 
----
+## Objetivo
 
-## 📱 Responsivo
-
-Compatível com:
-
-- Desktop
-- Tablet
-- Mobile
-
----
-
-## 💻 Projeto
-
-Sistema criado para prática de desenvolvimento front-end e experiência do usuário (UX/UI).
-
----
-
-## 🌐 Acesse o projeto
-
-https://yagho733.github.io/Vision-Barber/
+Projeto criado para demonstrar uma solução digital simples para barbearias que precisam apresentar seus serviços e facilitar o contato e o agendamento dos clientes.
